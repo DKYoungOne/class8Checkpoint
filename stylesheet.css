@@ -111,6 +111,7 @@ main {
     display: grid;
     grid-column-start: 2;
     grid-column-end: 3;
+    text-align: left;
 }
 
 
@@ -143,7 +144,7 @@ main {
     background-color: #ffffff;
     font-size: 16px;
     resize: none;
-    text-align: center;
+    
 }
 
 
