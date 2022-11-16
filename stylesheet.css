@@ -234,3 +234,56 @@ main {
 #galleryHome img {
     border: solid 2px rgb(67, 21, 88);
 }
+
+/* Landing page bottom part of the content, don't really know what to call it other than that. */
+
+#contentWrap1 {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#contentWrap1GridContainer {
+    display: inline-grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+#featured, #window1, #window2 {
+    height: min-content;
+    padding: 10px;
+    border: solid rgb(102, 44, 141) 5px;
+    
+}
+
+#window1, #window2 {
+    background-color: rgb(67, 21, 88);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    color: rgb(226, 226, 226);
+}
+
+#featured {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width:75%;
+    
+    
+}
+
+#window1 {
+    
+    grid-row-start: 1;
+    grid-row-end: 2;
+    
+
+}
+
+#window2 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin: 35px;
+    
+}
